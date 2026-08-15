@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 
 const storage = "/assets/images/";
+const audioStorage = "/assets/audio/";
 
 const projects = [
   {
@@ -131,7 +132,7 @@ export default function Home() {
         ref={audioRef}
         loop
         preload="metadata"
-        src={`${storage}Steam Tech Music.wav`}
+        src={`${audioStorage}Steam Tech Music.wav`}
         onEnded={() => setIsPlaying(false)}
       />
 
