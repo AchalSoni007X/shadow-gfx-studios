@@ -1,33 +1,18 @@
 /* Utility / label typography */
-.main-nav button,
-.hero-rail,
-.hero-footer-note,
-.hero-caption,
-.section-aside,
-.eyebrow,
-.section-intro,
-.work-footer,
-.services-heading .eyebrow,
-.software-strip,
-.service-index,
-.studio-signature small,
-.contact-kicker,
-.contact-main .eyebrow,
-.footer,
-.audio-copy small,
-.main-nav span,
-.section-number,
-.project-meta,
-.project-meta small,
-.why-card-top,
-.reason-list p,
-.contact-details a,
-.contact-details span,
-.text-link { font-size: 15px !important; font-weight: 700 !important; opacity: 1 !important; }
-.contact-cta { font-size: 15px !important; font-weight: 400 !important; }
-.services-section .section-aside,.services-section .software-strip,.services-section .why-card-top,.services-section .reason-list p,.contact-section .contact-kicker,.contact-section .contact-main .eyebrow,.contact-section .contact-details a,.contact-section .contact-details span { color: rgba(255,254,250,.96) !important; }
-.studio-signature span { font-size: 23px !important; font-weight: 700 !important; }
+.main-nav button,.hero-rail,.hero-footer-note,.hero-caption,.section-aside,.eyebrow,.section-intro,.work-footer,.services-heading .eyebrow,.software-strip,.service-index,.studio-signature small,.contact-kicker,.contact-main .eyebrow,.footer,.audio-copy small,.main-nav span,.section-number,.project-meta,.project-meta small,.why-card-top,.reason-list p,.contact-details a,.contact-details span,.text-link { font-size:15px !important; font-weight:700 !important; opacity:1 !important; }
+.contact-cta { font-size:15px !important; font-weight:400 !important; }
+.services-section .section-aside,.services-section .software-strip,.services-section .why-card-top,.services-section .reason-list p,.contact-section .contact-kicker,.contact-section .contact-main .eyebrow,.contact-section .contact-details a,.contact-section .contact-details span { color:rgba(255,254,250,.96) !important; }
+.studio-signature span { font-size:23px !important; font-weight:700 !important; }
 .studio-signature small { display:block; margin-top:5px; color:var(--ink) !important; font-size:14px !important; font-weight:400 !important; letter-spacing:.02em !important; line-height:1.2 !important; text-transform:uppercase !important; }
 .frame-label { font-size:11px !important; }
 .studio-paragraph,.section-intro { font-style:italic !important; font-weight:700 !important; }
 .hero-stamp small { font-size:14px !important; font-weight:700 !important; }
+
+/* Portfolio replacements: free-to-use Pexels visuals, with project 02 left untouched. */
+.project-1 .project-image-wrap,.project-3 .project-image-wrap,.project-4 .project-image-wrap,.project-5 .project-image-wrap,.project-6 .project-image-wrap { overflow:hidden !important; background-position:center !important; background-size:cover !important; background-repeat:no-repeat !important; }
+.project-1 .project-image-wrap { background-image:url('https://images.pexels.com/photos/12732214/pexels-photo-12732214.jpeg?auto=compress&cs=tinysrgb&w=1400') !important; }
+.project-3 .project-image-wrap { background-image:url('https://images.pexels.com/photos/34165096/pexels-photo-34165096.jpeg?auto=compress&cs=tinysrgb&w=1400') !important; }
+.project-4 .project-image-wrap { background-image:url('https://images.pexels.com/photos/28586310/pexels-photo-28586310.jpeg?auto=compress&cs=tinysrgb&w=1400') !important; }
+.project-5 .project-image-wrap { background-image:url('https://images.pexels.com/photos/30291532/pexels-photo-30291532.jpeg?auto=compress&cs=tinysrgb&w=1400') !important; }
+.project-6 .project-image-wrap { background-image:url('https://images.pexels.com/photos/29744484/pexels-photo-29744484.jpeg?auto=compress&cs=tinysrgb&w=1400') !important; }
+.project-1 .project-image-wrap img,.project-3 .project-image-wrap img,.project-4 .project-image-wrap img,.project-5 .project-image-wrap img,.project-6 .project-image-wrap img { visibility:hidden !important; }
