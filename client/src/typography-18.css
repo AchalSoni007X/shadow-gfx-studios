@@ -34,3 +34,50 @@
   font-size: 18px !important;
   font-weight: 700 !important;
 }
+
+/* Make previously faint utility copy clearly readable without changing the main display headings. */
+.hero-rail,
+.hero-footer-note,
+.hero-caption,
+.section-aside,
+.section-intro,
+.work-footer,
+.software-strip,
+.footer,
+.audio-copy small,
+.project-meta small,
+.why-card-top,
+.reason-list p,
+.studio-signature small,
+.contact-details a,
+.contact-details span {
+  opacity: 1 !important;
+}
+
+/* Stronger contrast for the utility copy that sits on dark/purple sections. */
+.services-section .section-aside,
+.services-section .software-strip,
+.services-section .why-card-top,
+.services-section .reason-list p,
+.contact-section .contact-kicker,
+.contact-section .contact-main .eyebrow,
+.contact-section .contact-details a,
+.contact-section .contact-details span {
+  color: rgba(255, 254, 250, .96) !important;
+}
+
+/* Studio profile: the descriptor under Achal's name is intentionally prominent. */
+.studio-signature span {
+  font-size: 23px !important;
+  font-weight: 700 !important;
+}
+.studio-signature small {
+  display: block;
+  margin-top: 5px;
+  color: var(--ink) !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  letter-spacing: .04em !important;
+  line-height: 1.2 !important;
+  text-transform: uppercase;
+}
