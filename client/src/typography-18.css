@@ -1,0 +1,36 @@
+/* Larger, bolder utility / label typography requested for the studio site. */
+.main-nav button,
+.hero-rail,
+.hero-footer-note,
+.hero-caption,
+.section-aside,
+.eyebrow,
+.section-intro,
+.work-footer,
+.services-heading .eyebrow,
+.software-strip,
+.service-index,
+.studio-signature small,
+.contact-kicker,
+.contact-main .eyebrow,
+.frame-label,
+.footer,
+.audio-copy small {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.main-nav span,
+.section-number {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+.project-meta,
+.project-meta small,
+.why-card-top,
+.reason-list p,
+.contact-details a,
+.contact-details span,
+.text-link {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
