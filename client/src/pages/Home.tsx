@@ -13,7 +13,7 @@ const audioStorage = "/assets/audio/";
 
 const projects = [
   { id: "01", title: "Color / 01", category: "Color system & poster art", image: `${storage}image-1.jpg`, color: "orange" },
-  { id: "02", title: "Identity / 01", category: "Brand identity system", image: `${storage}fallback-identity-board_1d87fd48.jpg`, color: "ink" },
+  { id: "02", title: "Identity / 02", category: "Brand identity system", image: `${storage}fallback-identity-board_1d87fd48.jpg`, color: "ink" },
   { id: "03", title: "Faces / 03", category: "Illustration study", image: `${storage}image-3.jpg`, color: "cyan" },
   { id: "04", title: "Motion / 04", category: "Vector illustration", image: `${storage}image-4.jpg`, color: "orange" },
   { id: "05", title: "Forms / 05", category: "Illustration series", image: `${storage}image-5.jpg`, color: "blue" },
