@@ -30,7 +30,6 @@
   opacity: 1 !important;
 }
 
-/* START A CONVO: keep it smaller and lighter. */
 .contact-cta {
   font-size: 15px !important;
   font-weight: 400 !important;
@@ -47,7 +46,7 @@
   color: rgba(255, 254, 250, .96) !important;
 }
 
-/* Studio designation: normal case, not bold. */
+/* Studio designation: regular weight, restore caps. */
 .studio-signature span {
   font-size: 23px !important;
   font-weight: 700 !important;
@@ -60,5 +59,16 @@
   font-weight: 400 !important;
   letter-spacing: .02em !important;
   line-height: 1.2 !important;
-  text-transform: none !important;
+  text-transform: uppercase !important;
+}
+
+/* Source code / figure marker, slightly smaller. */
+.frame-label {
+  font-size: 11px !important;
+}
+
+/* Italic editorial copy requested by the user. */
+.studio-paragraph,
+.section-intro {
+  font-style: italic !important;
 }
