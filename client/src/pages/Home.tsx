@@ -12,12 +12,12 @@ const storage = "/assets/images/";
 const audioStorage = "/assets/audio/";
 
 const projects = [
-  { id: "01", title: "Color / 01", category: "Color system & poster art", image: `${storage}shadow-gfx-color-posters_8f653086.jpg`, color: "purple" },
+  { id: "01", title: "Color / 01", category: "Color system & poster art", image: `${storage}vector-poster-01.svg`, color: "orange" },
   { id: "02", title: "Identity / 01", category: "Brand identity system", image: `${storage}fallback-identity-board_1d87fd48.jpg`, color: "ink" },
-  { id: "03", title: "Faces / 03", category: "Illustration study", image: `${storage}shadow-gfx-color-portrait_bb576b2e.png`, color: "violet" },
-  { id: "04", title: "Motion / 04", category: "Abstract illustration", image: `${storage}shadow-gfx-color-shapes_f9d2d3ab.jpg`, color: "orange" },
-  { id: "05", title: "Forms / 05", category: "Illustration series", image: `${storage}shadow-gfx-color-campaign_d1ced427.jpg`, color: "purple" },
-  { id: "06", title: "Spectrum / 06", category: "Colorful vector illustration", image: `${storage}fallback-purple-lines_7e3837b1.jpg`, color: "cyan" },
+  { id: "03", title: "Faces / 03", category: "Illustration study", image: `${storage}vector-poster-03.svg`, color: "cyan" },
+  { id: "04", title: "Motion / 04", category: "Vector illustration", image: `${storage}vector-poster-04.svg`, color: "orange" },
+  { id: "05", title: "Forms / 05", category: "Illustration series", image: `${storage}vector-poster-05.svg`, color: "blue" },
+  { id: "06", title: "Spectrum / 06", category: "Colorful vector illustration", image: `${storage}vector-poster-06.svg`, color: "violet" },
 ];
 
 const services = ["Banner design", "Poster design", "Business & visiting cards", "Social media posts", "Menu design", "Photo editing", "Product mockups", "Flyers & more"];
