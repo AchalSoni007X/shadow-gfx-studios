@@ -173,7 +173,7 @@
 .project-image-wrap { position: relative; display: block; overflow: hidden; aspect-ratio: 4 / 5; background: #ddd; }
 .project-card:nth-child(1) .project-image-wrap { aspect-ratio: 1.58 / 1; }
 .project-image-wrap::after { position: absolute; inset: 0; border: 1px solid rgba(255,255,255,.28); content: ""; pointer-events: none; mix-blend-mode: screen; }
-.project-image-wrap img { width: 100%; height: 100%; display: block; object-fit: cover; filter: saturate(.92); transition: transform .6s var(--ease-out), filter .6s var(--ease-out); }
+.project-image-wrap img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center; filter: saturate(.92); transition: transform .6s var(--ease-out), filter .6s var(--ease-out); }
 .project-card:hover .project-image-wrap img { filter: saturate(1.15); transform: scale(1.035) translate(3px, -2px); }
 .project-meta { display: grid; grid-template-columns: 1fr auto; gap: 5px 10px; padding-top: 12px; border-top: 1px solid var(--ink); font-size: 12px; }
 .project-meta > span { grid-column: 1 / -1; font-weight: 700; letter-spacing: -.02em; }
@@ -258,7 +258,8 @@
 .lightbox-inner { position: relative; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(210px, .45fr); width: min(100%, 980px); max-height: min(90vh, 760px); background: var(--paper); animation: lift-in .3s var(--ease-out); }
 .lightbox-close { position: absolute; z-index: 2; top: 13px; right: 13px; display: grid; place-items: center; width: 33px; height: 33px; background: var(--purple) !important; color: var(--white) !important; }
 .lightbox-image { overflow: hidden; min-height: 480px; background: var(--ink); }
-.lightbox-image img { width: 100%; height: 100%; display: block; object-fit: contain; }
+/* Keep the lightbox crop identical to the portfolio card so clicking a frame never appears to switch artwork. */
+.lightbox-image img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center; }
 .lightbox-meta { display: flex; flex-direction: column; justify-content: flex-end; padding: 30px; border-left: 1px solid rgba(17,16,20,.15); }
 .lightbox-meta span { color: var(--purple); font-family: "DM Mono", monospace; font-size: 9px; letter-spacing: .1em; text-transform: uppercase; }
 .lightbox-meta h3 { margin: 12px 0; font-size: clamp(2.3rem, 4vw, 4.2rem); letter-spacing: -.08em; line-height: .9; }
