@@ -12,12 +12,12 @@ const storage = "/assets/images/";
 const audioStorage = "/assets/audio/";
 
 const projects = [
-  { id: "01", title: "Color / 01", category: "Color system & poster art", image: `${storage}image-1.png`, color: "orange" },
+  { id: "01", title: "Color / 01", category: "Color system & poster art", image: `${storage}image-1.jpg`, color: "orange" },
   { id: "02", title: "Identity / 01", category: "Brand identity system", image: `${storage}fallback-identity-board_1d87fd48.jpg`, color: "ink" },
-  { id: "03", title: "Faces / 03", category: "Illustration study", image: `${storage}image-3.png`, color: "cyan" },
-  { id: "04", title: "Motion / 04", category: "Vector illustration", image: `${storage}image-4.png`, color: "orange" },
-  { id: "05", title: "Forms / 05", category: "Illustration series", image: `${storage}image-5.png`, color: "blue" },
-  { id: "06", title: "Spectrum / 06", category: "Colorful vector illustration", image: `${storage}image-6.png`, color: "violet" },
+  { id: "03", title: "Faces / 03", category: "Illustration study", image: `${storage}image-3.jpg`, color: "cyan" },
+  { id: "04", title: "Motion / 04", category: "Vector illustration", image: `${storage}image-4.jpg`, color: "orange" },
+  { id: "05", title: "Forms / 05", category: "Illustration series", image: `${storage}image-5.jpg`, color: "blue" },
+  { id: "06", title: "Spectrum / 06", category: "Colorful vector illustration", image: `${storage}image-6.jpg`, color: "violet" },
 ];
 
 const services = ["Banner design", "Poster design", "Business & visiting cards", "Social media posts", "Menu design", "Photo editing", "Product mockups", "Flyers & more"];

@@ -9,10 +9,41 @@
 .hero-stamp small { font-size:14px !important; font-weight:700 !important; }
 
 /* Portfolio replacements: free-to-use Pexels visuals, with project 02 left untouched. */
-.project-1 .project-image-wrap,.project-3 .project-image-wrap,.project-4 .project-image-wrap,.project-5 .project-image-wrap,.project-6 .project-image-wrap { overflow:hidden !important; background-position:center !important; background-size:cover !important; background-repeat:no-repeat !important; }
-.project-1 .project-image-wrap { background-image:url('https://images.pexels.com/photos/12732214/pexels-photo-12732214.jpeg?auto=compress&cs=tinysrgb&w=1400') !important; }
-.project-3 .project-image-wrap { background-image:url('https://images.pexels.com/photos/34165096/pexels-photo-34165096.jpeg?auto=compress&cs=tinysrgb&w=1400') !important; }
-.project-4 .project-image-wrap { background-image:url('https://images.pexels.com/photos/28586310/pexels-photo-28586310.jpeg?auto=compress&cs=tinysrgb&w=1400') !important; }
-.project-5 .project-image-wrap { background-image:url('https://images.pexels.com/photos/30291532/pexels-photo-30291532.jpeg?auto=compress&cs=tinysrgb&w=1400') !important; }
-.project-6 .project-image-wrap { background-image:url('https://images.pexels.com/photos/29744484/pexels-photo-29744484.jpeg?auto=compress&cs=tinysrgb&w=1400') !important; }
-.project-1 .project-image-wrap img,.project-3 .project-image-wrap img,.project-4 .project-image-wrap img,.project-5 .project-image-wrap img,.project-6 .project-image-wrap img { visibility:hidden !important; }
+.project-1 .project-image-wrap,
+.project-3 .project-image-wrap,
+.project-4 .project-image-wrap,
+.project-5 .project-image-wrap,
+.project-6 .project-image-wrap {
+  overflow: hidden !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+.project-1 .project-image-wrap {
+  background-image: url('/assets/images/image-1.jpg') !important;
+}
+
+.project-3 .project-image-wrap {
+  background-image: url('/assets/images/image-3.jpg') !important;
+}
+
+.project-4 .project-image-wrap {
+  background-image: url('/assets/images/image-4.jpg') !important;
+}
+
+.project-5 .project-image-wrap {
+  background-image: url('/assets/images/image-5.jpg') !important;
+}
+
+.project-6 .project-image-wrap {
+  background-image: url('/assets/images/image-6.jpg') !important;
+}
+
+.project-1 .project-image-wrap img,
+.project-3 .project-image-wrap img,
+.project-4 .project-image-wrap img,
+.project-5 .project-image-wrap img,
+.project-6 .project-image-wrap img {
+  visibility: hidden !important;
+}
