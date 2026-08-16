@@ -30,6 +30,12 @@
   opacity: 1 !important;
 }
 
+/* START A CONVO: keep it smaller and lighter. */
+.contact-cta {
+  font-size: 15px !important;
+  font-weight: 400 !important;
+}
+
 .services-section .section-aside,
 .services-section .software-strip,
 .services-section .why-card-top,
@@ -41,6 +47,7 @@
   color: rgba(255, 254, 250, .96) !important;
 }
 
+/* Studio designation: normal case, not bold. */
 .studio-signature span {
   font-size: 23px !important;
   font-weight: 700 !important;
@@ -50,8 +57,8 @@
   margin-top: 5px;
   color: var(--ink) !important;
   font-size: 15px !important;
-  font-weight: 700 !important;
-  letter-spacing: .04em !important;
+  font-weight: 400 !important;
+  letter-spacing: .02em !important;
   line-height: 1.2 !important;
-  text-transform: uppercase;
+  text-transform: none !important;
 }
