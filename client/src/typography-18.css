@@ -13,7 +13,6 @@
 .studio-signature small,
 .contact-kicker,
 .contact-main .eyebrow,
-.frame-label,
 .footer,
 .audio-copy small,
 .main-nav span,
@@ -30,10 +29,7 @@
   opacity: 1 !important;
 }
 
-.contact-cta {
-  font-size: 15px !important;
-  font-weight: 400 !important;
-}
+.contact-cta { font-size: 15px !important; font-weight: 400 !important; }
 
 .services-section .section-aside,
 .services-section .software-strip,
@@ -42,33 +38,21 @@
 .contact-section .contact-kicker,
 .contact-section .contact-main .eyebrow,
 .contact-section .contact-details a,
-.contact-section .contact-details span {
-  color: rgba(255, 254, 250, .96) !important;
-}
+.contact-section .contact-details span { color: rgba(255, 254, 250, .96) !important; }
 
-/* Studio designation: regular weight, restore caps. */
-.studio-signature span {
-  font-size: 23px !important;
-  font-weight: 700 !important;
-}
+.studio-signature span { font-size: 23px !important; font-weight: 700 !important; }
 .studio-signature small {
-  display: block;
-  margin-top: 5px;
-  color: var(--ink) !important;
-  font-size: 15px !important;
-  font-weight: 400 !important;
-  letter-spacing: .02em !important;
-  line-height: 1.2 !important;
+  display: block; margin-top: 5px; color: var(--ink) !important;
+  font-size: 15px !important; font-weight: 400 !important;
+  letter-spacing: .02em !important; line-height: 1.2 !important;
   text-transform: uppercase !important;
 }
 
-/* Source code / figure marker, slightly smaller. */
-.frame-label {
-  font-size: 11px !important;
-}
+.frame-label { font-size: 11px !important; }
+.studio-paragraph, .section-intro { font-style: italic !important; }
 
-/* Italic editorial copy requested by the user. */
-.studio-paragraph,
-.section-intro {
-  font-style: italic !important;
+/* Hero stamp: make EST. 2024 / ACHAL SONI more prominent. */
+.hero-stamp small {
+  font-size: 14px !important;
+  font-weight: 700 !important;
 }
